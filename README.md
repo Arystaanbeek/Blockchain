@@ -27,6 +27,7 @@ Clone the repository to your local machine:
 git clone https://github.com/yourusername/StockData.git
 cd StockData
 
+```sh
 ### Step 2: Install Dependencies
 
 Install the required dependencies:
