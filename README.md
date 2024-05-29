@@ -15,9 +15,9 @@
 ## Алғышарттар
 
 - [Node.js](https://nodejs.org б.
-- [Трюфель](https://www.trufflesuite.com/truffle б.
-- [Ганаш](https://www.trufflesuite.com/ganache б.
-- [Метамаск](https://metamask.io б.
+- [truffle](https://www.trufflesuite.com/truffle б.
+- [ganache](https://www.trufflesuite.com/ganache б.
+- [metamask](https://metamask.io б.
 
 ## Орнату Нұсқаулары
 
@@ -25,31 +25,31 @@
 
 Репозиторийді жергілікті құрылғыға клондау:
 
-`sh
-git клоны https://github.com/yourusername/StockData.git
-cd Сақтау Деректері
+```sh
+git clone https://github.com/yourusername/StockData.git
+cd StockData
 ```
 ## 2-Қадам: Тәуелділіктерді Орнату
 Қажетті тәуелділіктерді орнатыңыз:
 
 Жергілікті Ethereum блокчейнін іске қосу ҮШІН GANACHE CLI немесе GUI іске қосыңыз:
 
-`sh
+```sh
 --ganache-cli
 ```
 
-## 4-қадам: Ақылды Келісімшартты Құрастырыңыз және Орналастырыңыз
+## 3-қадам: Ақылды Келісімшартты Құрастырыңыз және Орналастырыңыз
 Трюфельді пайдаланып ақылды келісімшартты құрастырыңыз және орналастырыңыз:
 
-`sh
--- truffle create
--- truffle migrate
+```sh
+--truffle compile
+--truffle migrate
 ```
 
-## 5-Қадам: MetaMask Орнату
+## 4-Қадам: MetaMask Орнату
 MetaMask бағдарламасын Жергілікті Ethereum желісіне (Ganache) қосылу үшін конфигурациялаңыз. Есептік жазбаны Ganache-ден MetaMask-қа импорттаңыз.
 
-## 6-қадам: Серверді Іске Қосыңыз
+## 5-қадам: Серверді Іске Қосыңыз
 Түйінді іске қосыңыз.js сервері:
 
 -- node сервері.js
@@ -134,7 +134,7 @@ Start the Ganache CLI or GUI to run a local Ethereum blockchain:
 --ganache-cli
 ```
 
-## Step 4: Compile and Deploy Smart Contract
+## Step 3: Compile and Deploy Smart Contract
 Compile and deploy the smart contract using Truffle:
 
 ```sh
@@ -142,10 +142,10 @@ Compile and deploy the smart contract using Truffle:
 --truffle migrate
 ```
 
-## Step 5: Configure MetaMask
+## Step 4: Configure MetaMask
 Configure MetaMask to connect to your local Ethereum network (Ganache). Import the account from Ganache into MetaMask.
 
-## Step 6: Start the Server
+## Step 5: Start the Server
 Start the Node.js server:
 
 --node server.js
