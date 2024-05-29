@@ -14,10 +14,10 @@
 
 ## Алғышарттар
 
-- [Node.js](https://nodejs.org б.
-- [truffle](https://www.trufflesuite.com/truffle б.
-- [ganache](https://www.trufflesuite.com/ganache б.
-- [metamask](https://metamask.io б.
+- [Node.js](https://nodejs.org.
+- [truffle](https://www.trufflesuite.com/truffle.
+- [ganache](https://www.trufflesuite.com/ganache.
+- [metamask](https://metamask.io.
 
 ## Орнату Нұсқаулары
 
@@ -54,7 +54,7 @@ MetaMask бағдарламасын Жергілікті Ethereum желісін
 
 -- node сервері.js
 
-Сервер жұмыс істей бастайды http://localhost:3000 б.
+Сервер жұмыс істей бастайды http://localhost:3000.
 
 # API Пайдалану
 
